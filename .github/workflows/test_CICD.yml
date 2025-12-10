@@ -3,7 +3,7 @@ name: Javascript learn
 on: [push]
 
 jobs:
-  - Sanyu:
+  Sanyu:
     runs:-on: ubuntu-latest
 
     steps:
@@ -13,4 +13,4 @@ jobs:
         run: npm install
       - name: Run Tests
         run: npm Tests
-          
+
